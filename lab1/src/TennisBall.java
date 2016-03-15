@@ -15,6 +15,7 @@ public class TennisBall extends Ball {
             this.weight = scanner.nextFloat();
         }catch (InputMismatchException e){
             System.out.println("неверный тип введенных данных");
+            System.exit(0);
         }
     }
 

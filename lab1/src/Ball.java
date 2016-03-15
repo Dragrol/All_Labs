@@ -17,6 +17,7 @@ public abstract class Ball extends SportEquipment {
             this.radius = scanner.nextFloat();
         }catch (InputMismatchException e){
             System.out.println("неверный тип введенных данных");
+            System.exit(0);
         }
     }
 }

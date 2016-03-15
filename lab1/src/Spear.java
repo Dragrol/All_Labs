@@ -15,6 +15,7 @@ public class Spear extends SportEquipment {
             this.length = scanner.nextFloat();
         }catch (InputMismatchException e){
             System.out.println("неверный тип введенных данных");
+            System.exit(0);
         }
     }
 

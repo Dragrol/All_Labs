@@ -15,6 +15,7 @@ public class Racket extends SportEquipment {
             this.material = scanner.next();
         }catch (InputMismatchException e){
             System.out.println("неверный тип введенных данных");
+            System.exit(0);
         }
     }
 

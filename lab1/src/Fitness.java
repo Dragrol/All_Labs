@@ -16,6 +16,7 @@ public abstract class Fitness extends SportEquipment {
             this.weight = scanner.nextFloat();
         }catch (InputMismatchException e){
             System.out.println("неверный тип введенных данных");
+            System.exit(0);
         }
     }
 }
